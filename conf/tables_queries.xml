@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>In key vom entry kommt der Dateiname OHNE Endung. Die SQL-Query danach. CDATA nutzen bei Sonderzeichen in der Query.</comment>
+
+    <!-- Research Collection -->
+    <entry key="rc_aip-finished.txt">SELECT COUNT(*) FROM V2L1_ROS00.INGEST_TRACKING_RECORD_E_PUB_Q WHERE SIP_STATUS='AIP_FINISHED'</entry>
+    <entry key="rc_aip-waiting.txt">SELECT COUNT(*) FROM V2L1_ROS00.INGEST_TRACKING_RECORD_E_PUB_Q WHERE SIP_STATUS='AIP_UPDATE_WAITING'</entry>
+    <entry key="rc_feeder-submitted.txt">SELECT COUNT(*) FROM V2L1_ROS00.INGEST_TRACKING_RECORD_E_PUB_Q WHERE SIP_STATUS='FEEDER_SUBMITTED'</entry>
+    <entry key="rc_feeder-updated.txt">SELECT COUNT(*) FROM V2L1_ROS00.INGEST_TRACKING_RECORD_E_PUB_Q WHERE SIP_STATUS='FEEDER_UPDATED'</entry>
+    <entry key="rc_finished.txt">SELECT COUNT(*) FROM V2L1_ROS00.INGEST_TRACKING_RECORD_E_PUB_Q WHERE SIP_STATUS='FINISHED'</entry>
+
+    <!-- Other checks -->
+
+
+</properties>

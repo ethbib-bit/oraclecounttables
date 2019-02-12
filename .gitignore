@@ -1,0 +1,5 @@
+*.txt
+^.settings
+submission_vl.iml
+bin/
+log/
